@@ -8,6 +8,7 @@ h1{
 }
 
 .header{
+    margin-bottom: 100px;
     background-image: url(image/13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,9 +21,10 @@ h1{
     margin: 0 auto;
     text-align: center;
     color: white;
+    padding: 6%;
 }
 
-.button-link{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(crimson,salmon);
     padding: 10px 15px;
@@ -30,5 +32,50 @@ h1{
     box-shadow: 2px 2px 8px salmon;
     color: white;
     font-weight: 700px;
-
 }
+
+.amount{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-today h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.flexiable{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#tk100{
+    background-color: #ddd;
+    padding: 25px;
+}
+
+#tk200{
+    background-color:#ddd;
+    padding: 25px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+}
+
+#tk500{
+    background-color: #ddd;
+    padding: 25px;
+}
+
+#tk5000{
+    background-color:#ddd;
+    padding: 25px;
+}
+
+.input-field input{
+    padding: 8px 200px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
