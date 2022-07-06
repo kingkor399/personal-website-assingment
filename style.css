@@ -119,3 +119,50 @@ h1{
     padding: 2%;
     margin-right: 5%;
 }
+
+.update{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.update h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+input{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #ddd;
+}
+
+button{
+    padding: 10px 50px;
+    pointer: cursor;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: crimson;
+}
+
+form{
+    border: 60px solid paleturquoise;
+    background-color:paleturquoise;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-family:cursive;
+    height: 150px;
+}
+
+footer h3{
+    padding: 3%;
+    color: crimson;
+}
