@@ -38,6 +38,7 @@ h1{
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .donate-today h2{
@@ -48,29 +49,33 @@ h1{
 .flexiable{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 #tk100{
     background-color: #ddd;
     padding: 25px;
+    cursor: pointer;
 }
 
 #tk200{
-    background-color:#ddd;
+    background-color:beige;
+    color: crimson;
     padding: 25px;
     border: 2px solid crimson;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #tk500{
     background-color: #ddd;
     padding: 25px;
+    cursor: pointer;
 }
 
 #tk5000{
     background-color:#ddd;
     padding: 25px;
+    cursor: pointer;
 }
 
 .input-field input{
@@ -79,3 +84,38 @@ h1{
     margin-bottom: 20px;
 }
 
+.our-donate{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-donate h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.box{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 7%;
+    margin-bottom: 100px;
+}
+
+.food{
+    background-color:beige;
+    padding: 2%;
+    margin-right: 5%;
+}
+
+.shelter{
+    background-color:lightcyan;
+    padding: 2%;
+    margin-right: 5%;
+}
+
+.frame{
+    background-color:powderblue;
+    padding: 2%;
+    margin-right: 5%;
+}
